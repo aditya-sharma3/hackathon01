@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600&display=swap');
+
+body{
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Nunito';
+    background-color: #FDFDFD;
+    height: 100vh;
+    width: 100%;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.login-icon{
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.logo{
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.list-item{
+    display: inline;
+    padding: 0px 25px;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-container{
+    height: 500px;
+    background-image: linear-gradient(to bottom, #9f4cec, #8c47e6, 
+    #7841df, #633dd9, #4a38d2);
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.online-learning{
+    width: 500px;
+    margin-top: 78px;
+}
+
+.promo-intro{
+    display: inline-block;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.line{
+    background-color: #ffffff;
+    width: 60px;
+    height: 2px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.sign-btn{
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #633dd9;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    box-shadow: 5px 5px 10px #1f1f1f;
+}
+
+.courses-btn{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #04d2c8;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.courses-btn:hover{
+    background-color: #4a38d2;
+    border: 1px solid;
+}
+
+.achi-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 170px;
+}
+
+.achievement{
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.achievement-text{
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.offerings{
+    color: #1f1f1f;
+    margin-top: 10px;
+}
+
+
+.learning{
+    margin-top: 40px;
+}
+
+.learning-heading{
+    text-align: center;
+    font-size: 55px;
+}
+
+.learning-menu{
+    text-align: center;
+}
+
+.learning-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom-style: solid;
+    border-bottom-color: #9f4cec;
+    border-bottom-width: 1px; */
+}
+
+.learning-item{
+    border: 2px solid #CAD5E2;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.ul-under-line{
+    background-color: #9f4cec;
+    height: 1px;
+    margin: 0px 40px;
+}
+
+.courses-img{
+    width: 280px;
+}
+
+.card-class{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container h4{
+    margin-bottom: 0px;
+}
+
+.live{
+    background-color: #4a38d2;
+    color: #ffffff;
+}
+
+.learning-item:hover{
+    background-color: #4a38d2;
+    color: #ffffff;
+}
+
+.product-img{
+    width: 190px;
+}
+
+.our-products{
+    margin-top: 50px;
+}
+
+.product-heading h1{
+    text-align: center;
+    font-size: 55px;
+    color: #233c7b;
+}
+
+.product-card{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: top;
+}
+
+.product-card1{
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-intitution{
+    background-color: #fbfeff;
+    margin-top: 180px;
+}
+
+.partner-intitution h1{
+    text-align: center;
+    font-size: 55px;
+    color: #233c7b;
+}
+
+.institutes{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+.institute-img{
+    width: 200px;
+}
+
+.company-product{
+    display: flex;
+    margin-top: 80px;
+}
+
+.hackathon-companies h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.geek-img, .git-img, .jet-img, .sigma-img, .learn-img, .nvidia-img, .redis-img{
+    width: 150px;
+}
+
+.company-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.hackathon-companies{
+    margin-top: 70px;
+    background-color: #04d2c8;
+    height: 300px;
+    color: #233c7b;
+}
+
+.our-products h2{
+    color: #233c7b;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.products-list, .products-list2{
+    display: flex;
+    justify-content: space-around;
+    /* vertical-align: top; */
+}
+
+.products-list2{
+    padding-top: 100px;
+}
+
+.products-list a, .products-list2 a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.products-list a h3, .products-list2 a h3{
+    color: #233c7b;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.products-list a, .products-list2 a{
+    text-align: center;
+    text-decoration: none !important;
+    /* font-size: 15px; */
+}
+
+.products-list a h4, .products-list2 a h4{
+    color: #1f1f1f;
+    font-size: 18px;
+}
+
+.hall-icon{
+    width: 210px;
+}
+
+/* .products-list a img{
+    
+} */
+
+.footer-container{
+    display: flex;
+    background-image: linear-gradient(to bottom, #9f4cec, #8c47e6, 
+    #7841df, #633dd9, #4a38d2);
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+
+.address{
+    font-size: 20px;
+}
+
+.under-line{
+    width: 170px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.footer-img{
+    width: 60px;
+    margin-left: 15px;
+}
+
+.iso-logo{
+    width: 100px;
+    margin-top: 80px;
+}
+
+.email{
+    font-size: 22px;
+}
+
+.placement-container{
+    padding: 100px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.placement-container h1{
+    font-size: 55px;
+    color: #233c7b;
+    margin-top: 200px;
+}
